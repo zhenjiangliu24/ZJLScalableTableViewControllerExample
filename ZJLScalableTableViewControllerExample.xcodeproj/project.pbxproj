@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CAFF77381D0A1AE4003DBAB1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFF77371D0A1AE4003DBAB1 /* main.m */; };
+		CAFF773B1D0A1AE4003DBAB1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFF773A1D0A1AE4003DBAB1 /* AppDelegate.m */; };
+		CAFF77411D0A1AE4003DBAB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAFF773F1D0A1AE4003DBAB1 /* Main.storyboard */; };
+		CAFF77431D0A1AE4003DBAB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAFF77421D0A1AE4003DBAB1 /* Assets.xcassets */; };
+		CAFF77461D0A1AE4003DBAB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAFF77441D0A1AE4003DBAB1 /* LaunchScreen.storyboard */; };
+		CAFF77511D0A1AE4003DBAB1 /* ZJLScalableTableViewControllerExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFF77501D0A1AE4003DBAB1 /* ZJLScalableTableViewControllerExampleTests.m */; };
+		CAFF775C1D0A1AE4003DBAB1 /* ZJLScalableTableViewControllerExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFF775B1D0A1AE4003DBAB1 /* ZJLScalableTableViewControllerExampleUITests.m */; };
+		CAFF776B1D0A1B70003DBAB1 /* ZJLScalableTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFF776A1D0A1B70003DBAB1 /* ZJLScalableTableViewController.m */; };
+		CAFF77711D0A213E003DBAB1 /* ExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFF77701D0A213E003DBAB1 /* ExampleViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CAFF774D1D0A1AE4003DBAB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAFF772B1D0A1AE4003DBAB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAFF77321D0A1AE4003DBAB1;
+			remoteInfo = ZJLScalableTableViewControllerExample;
+		};
+		CAFF77581D0A1AE4003DBAB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAFF772B1D0A1AE4003DBAB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAFF77321D0A1AE4003DBAB1;
+			remoteInfo = ZJLScalableTableViewControllerExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CAFF77331D0A1AE4003DBAB1 /* ZJLScalableTableViewControllerExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZJLScalableTableViewControllerExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAFF77371D0A1AE4003DBAB1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CAFF77391D0A1AE4003DBAB1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CAFF773A1D0A1AE4003DBAB1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CAFF77401D0A1AE4003DBAB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CAFF77421D0A1AE4003DBAB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CAFF77451D0A1AE4003DBAB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CAFF77471D0A1AE4003DBAB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAFF774C1D0A1AE4003DBAB1 /* ZJLScalableTableViewControllerExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZJLScalableTableViewControllerExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAFF77501D0A1AE4003DBAB1 /* ZJLScalableTableViewControllerExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJLScalableTableViewControllerExampleTests.m; sourceTree = "<group>"; };
+		CAFF77521D0A1AE4003DBAB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAFF77571D0A1AE4003DBAB1 /* ZJLScalableTableViewControllerExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZJLScalableTableViewControllerExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAFF775B1D0A1AE4003DBAB1 /* ZJLScalableTableViewControllerExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJLScalableTableViewControllerExampleUITests.m; sourceTree = "<group>"; };
+		CAFF775D1D0A1AE4003DBAB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAFF77691D0A1B70003DBAB1 /* ZJLScalableTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJLScalableTableViewController.h; sourceTree = "<group>"; };
+		CAFF776A1D0A1B70003DBAB1 /* ZJLScalableTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJLScalableTableViewController.m; sourceTree = "<group>"; };
+		CAFF776F1D0A213E003DBAB1 /* ExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleViewController.h; sourceTree = "<group>"; };
+		CAFF77701D0A213E003DBAB1 /* ExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAFF77301D0A1AE4003DBAB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAFF77491D0A1AE4003DBAB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAFF77541D0A1AE4003DBAB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CAFF772A1D0A1AE4003DBAB1 = {
+			isa = PBXGroup;
+			children = (
+				CAFF77351D0A1AE4003DBAB1 /* ZJLScalableTableViewControllerExample */,
+				CAFF774F1D0A1AE4003DBAB1 /* ZJLScalableTableViewControllerExampleTests */,
+				CAFF775A1D0A1AE4003DBAB1 /* ZJLScalableTableViewControllerExampleUITests */,
+				CAFF77341D0A1AE4003DBAB1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CAFF77341D0A1AE4003DBAB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAFF77331D0A1AE4003DBAB1 /* ZJLScalableTableViewControllerExample.app */,
+				CAFF774C1D0A1AE4003DBAB1 /* ZJLScalableTableViewControllerExampleTests.xctest */,
+				CAFF77571D0A1AE4003DBAB1 /* ZJLScalableTableViewControllerExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAFF77351D0A1AE4003DBAB1 /* ZJLScalableTableViewControllerExample */ = {
+			isa = PBXGroup;
+			children = (
+				CAFF77391D0A1AE4003DBAB1 /* AppDelegate.h */,
+				CAFF773A1D0A1AE4003DBAB1 /* AppDelegate.m */,
+				CAFF77691D0A1B70003DBAB1 /* ZJLScalableTableViewController.h */,
+				CAFF776A1D0A1B70003DBAB1 /* ZJLScalableTableViewController.m */,
+				CAFF776F1D0A213E003DBAB1 /* ExampleViewController.h */,
+				CAFF77701D0A213E003DBAB1 /* ExampleViewController.m */,
+				CAFF773F1D0A1AE4003DBAB1 /* Main.storyboard */,
+				CAFF77421D0A1AE4003DBAB1 /* Assets.xcassets */,
+				CAFF77441D0A1AE4003DBAB1 /* LaunchScreen.storyboard */,
+				CAFF77471D0A1AE4003DBAB1 /* Info.plist */,
+				CAFF77361D0A1AE4003DBAB1 /* Supporting Files */,
+			);
+			path = ZJLScalableTableViewControllerExample;
+			sourceTree = "<group>";
+		};
+		CAFF77361D0A1AE4003DBAB1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CAFF77371D0A1AE4003DBAB1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CAFF774F1D0A1AE4003DBAB1 /* ZJLScalableTableViewControllerExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				CAFF77501D0A1AE4003DBAB1 /* ZJLScalableTableViewControllerExampleTests.m */,
+				CAFF77521D0A1AE4003DBAB1 /* Info.plist */,
+			);
+			path = ZJLScalableTableViewControllerExampleTests;
+			sourceTree = "<group>";
+		};
+		CAFF775A1D0A1AE4003DBAB1 /* ZJLScalableTableViewControllerExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CAFF775B1D0A1AE4003DBAB1 /* ZJLScalableTableViewControllerExampleUITests.m */,
+				CAFF775D1D0A1AE4003DBAB1 /* Info.plist */,
+			);
+			path = ZJLScalableTableViewControllerExampleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAFF77321D0A1AE4003DBAB1 /* ZJLScalableTableViewControllerExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAFF77601D0A1AE4003DBAB1 /* Build configuration list for PBXNativeTarget "ZJLScalableTableViewControllerExample" */;
+			buildPhases = (
+				CAFF772F1D0A1AE4003DBAB1 /* Sources */,
+				CAFF77301D0A1AE4003DBAB1 /* Frameworks */,
+				CAFF77311D0A1AE4003DBAB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZJLScalableTableViewControllerExample;
+			productName = ZJLScalableTableViewControllerExample;
+			productReference = CAFF77331D0A1AE4003DBAB1 /* ZJLScalableTableViewControllerExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CAFF774B1D0A1AE4003DBAB1 /* ZJLScalableTableViewControllerExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAFF77631D0A1AE4003DBAB1 /* Build configuration list for PBXNativeTarget "ZJLScalableTableViewControllerExampleTests" */;
+			buildPhases = (
+				CAFF77481D0A1AE4003DBAB1 /* Sources */,
+				CAFF77491D0A1AE4003DBAB1 /* Frameworks */,
+				CAFF774A1D0A1AE4003DBAB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAFF774E1D0A1AE4003DBAB1 /* PBXTargetDependency */,
+			);
+			name = ZJLScalableTableViewControllerExampleTests;
+			productName = ZJLScalableTableViewControllerExampleTests;
+			productReference = CAFF774C1D0A1AE4003DBAB1 /* ZJLScalableTableViewControllerExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CAFF77561D0A1AE4003DBAB1 /* ZJLScalableTableViewControllerExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAFF77661D0A1AE4003DBAB1 /* Build configuration list for PBXNativeTarget "ZJLScalableTableViewControllerExampleUITests" */;
+			buildPhases = (
+				CAFF77531D0A1AE4003DBAB1 /* Sources */,
+				CAFF77541D0A1AE4003DBAB1 /* Frameworks */,
+				CAFF77551D0A1AE4003DBAB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAFF77591D0A1AE4003DBAB1 /* PBXTargetDependency */,
+			);
+			name = ZJLScalableTableViewControllerExampleUITests;
+			productName = ZJLScalableTableViewControllerExampleUITests;
+			productReference = CAFF77571D0A1AE4003DBAB1 /* ZJLScalableTableViewControllerExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAFF772B1D0A1AE4003DBAB1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = ZhongZhongzhong;
+				TargetAttributes = {
+					CAFF77321D0A1AE4003DBAB1 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = D667J2X7L2;
+					};
+					CAFF774B1D0A1AE4003DBAB1 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = D667J2X7L2;
+						TestTargetID = CAFF77321D0A1AE4003DBAB1;
+					};
+					CAFF77561D0A1AE4003DBAB1 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = D667J2X7L2;
+						TestTargetID = CAFF77321D0A1AE4003DBAB1;
+					};
+				};
+			};
+			buildConfigurationList = CAFF772E1D0A1AE4003DBAB1 /* Build configuration list for PBXProject "ZJLScalableTableViewControllerExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CAFF772A1D0A1AE4003DBAB1;
+			productRefGroup = CAFF77341D0A1AE4003DBAB1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAFF77321D0A1AE4003DBAB1 /* ZJLScalableTableViewControllerExample */,
+				CAFF774B1D0A1AE4003DBAB1 /* ZJLScalableTableViewControllerExampleTests */,
+				CAFF77561D0A1AE4003DBAB1 /* ZJLScalableTableViewControllerExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAFF77311D0A1AE4003DBAB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAFF77461D0A1AE4003DBAB1 /* LaunchScreen.storyboard in Resources */,
+				CAFF77431D0A1AE4003DBAB1 /* Assets.xcassets in Resources */,
+				CAFF77411D0A1AE4003DBAB1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAFF774A1D0A1AE4003DBAB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAFF77551D0A1AE4003DBAB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAFF772F1D0A1AE4003DBAB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAFF776B1D0A1B70003DBAB1 /* ZJLScalableTableViewController.m in Sources */,
+				CAFF77711D0A213E003DBAB1 /* ExampleViewController.m in Sources */,
+				CAFF773B1D0A1AE4003DBAB1 /* AppDelegate.m in Sources */,
+				CAFF77381D0A1AE4003DBAB1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAFF77481D0A1AE4003DBAB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAFF77511D0A1AE4003DBAB1 /* ZJLScalableTableViewControllerExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAFF77531D0A1AE4003DBAB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAFF775C1D0A1AE4003DBAB1 /* ZJLScalableTableViewControllerExampleUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CAFF774E1D0A1AE4003DBAB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAFF77321D0A1AE4003DBAB1 /* ZJLScalableTableViewControllerExample */;
+			targetProxy = CAFF774D1D0A1AE4003DBAB1 /* PBXContainerItemProxy */;
+		};
+		CAFF77591D0A1AE4003DBAB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAFF77321D0A1AE4003DBAB1 /* ZJLScalableTableViewControllerExample */;
+			targetProxy = CAFF77581D0A1AE4003DBAB1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CAFF773F1D0A1AE4003DBAB1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAFF77401D0A1AE4003DBAB1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CAFF77441D0A1AE4003DBAB1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAFF77451D0A1AE4003DBAB1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CAFF775E1D0A1AE4003DBAB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CAFF775F1D0A1AE4003DBAB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CAFF77611D0A1AE4003DBAB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZJLScalableTableViewControllerExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ZJLScalableTableViewControllerExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CAFF77621D0A1AE4003DBAB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZJLScalableTableViewControllerExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ZJLScalableTableViewControllerExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CAFF77641D0A1AE4003DBAB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZJLScalableTableViewControllerExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ZJLScalableTableViewControllerExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZJLScalableTableViewControllerExample.app/ZJLScalableTableViewControllerExample";
+			};
+			name = Debug;
+		};
+		CAFF77651D0A1AE4003DBAB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZJLScalableTableViewControllerExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ZJLScalableTableViewControllerExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZJLScalableTableViewControllerExample.app/ZJLScalableTableViewControllerExample";
+			};
+			name = Release;
+		};
+		CAFF77671D0A1AE4003DBAB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZJLScalableTableViewControllerExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ZJLScalableTableViewControllerExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZJLScalableTableViewControllerExample;
+			};
+			name = Debug;
+		};
+		CAFF77681D0A1AE4003DBAB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZJLScalableTableViewControllerExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ZJLScalableTableViewControllerExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZJLScalableTableViewControllerExample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAFF772E1D0A1AE4003DBAB1 /* Build configuration list for PBXProject "ZJLScalableTableViewControllerExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAFF775E1D0A1AE4003DBAB1 /* Debug */,
+				CAFF775F1D0A1AE4003DBAB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAFF77601D0A1AE4003DBAB1 /* Build configuration list for PBXNativeTarget "ZJLScalableTableViewControllerExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAFF77611D0A1AE4003DBAB1 /* Debug */,
+				CAFF77621D0A1AE4003DBAB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CAFF77631D0A1AE4003DBAB1 /* Build configuration list for PBXNativeTarget "ZJLScalableTableViewControllerExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAFF77641D0A1AE4003DBAB1 /* Debug */,
+				CAFF77651D0A1AE4003DBAB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CAFF77661D0A1AE4003DBAB1 /* Build configuration list for PBXNativeTarget "ZJLScalableTableViewControllerExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAFF77671D0A1AE4003DBAB1 /* Debug */,
+				CAFF77681D0A1AE4003DBAB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAFF772B1D0A1AE4003DBAB1 /* Project object */;
+}
