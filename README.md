@@ -1,7 +1,7 @@
 # ZJLScalableTableViewControllerExample
 If you want to use a table view with a scalable header, use this!
 
-How to use:\n
+How to use:  
 1. Inherit your table view controller to the ZJLScalableTableViewController
 @interface ExampleViewController : ZJLScalableTableViewController
 
